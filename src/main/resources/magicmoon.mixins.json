@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.chongyu.magicmoon.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "TimeCommandMixin",
+    "block.AbstractBlockMixin",
+    "block.AbstractBlockStateMixin",
+    "entity.AbstractSkeletonEntityMixin",
+    "entity.DrownedEntityMixin",
+    "entity.HostileEntityMixin",
+    "entity.MobEntityMixin",
+    "entity.SlimeEntityMixin",
+    "entity.ZoglinEntityMixin",
+    "entity.ZombieEntityMixin",
+    "entity.ZombifiedPiglinEntityMixin",
+    "spawn.SpawnHelperAccess",
+    "spawn.SpawnHelperInfoMixin",
+    "spawn.SpawnHelperMixin",
+    "world.ServerChunkManagerAccessor",
+    "world.ServerWorldMixin",
+    "world.WorldMixin"
+  ],
+  "client": [
+    "client.WorldRenderMixin",
+    "client.bloodmoonworld.LightmapTextureManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
