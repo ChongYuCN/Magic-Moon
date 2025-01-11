@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "magicmoon",
+  "version": "${version}",
+  "name": "A Blood Moon",
+  "description": "A Blood Moon",
+  "authors": [
+    "ChongYu"
+  ],
+  "contact": {
+    "repo": "https://github.com/ChongYuCN/MagicMoon"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/magicmoon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chongyu.magicmoon.MagicMoon"
+    ]
+  },
+  "mixins": [
+    "magicmoon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.20",
+    "fabric": "*",
+    "minecraft": ">=1.20.1"
+  }
+}
